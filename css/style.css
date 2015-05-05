@@ -1,0 +1,256 @@
+
+
+header {
+	position: absolute;
+	width: 100%;
+	height: 150px;
+}
+header div {
+	width: 996px;
+	margin: 0 auto;
+}
+header h1 {
+	height: 350px;
+	width: 350px;
+	margin: 0 auto;
+	background: url(../images/WRMO_Logo-Color.png)center center no-repeat;
+	background-size:cover ;
+}
+
+#feature {
+	width: 100%;
+	background: black url(../images/DragonsCoverFull.png)center bottom no-repeat ;
+	background-size: cover;
+	box-shadow: 0px 1px 5px black;
+}
+#feature aside {
+	position: relative;
+	margin-top: 370px;
+	width: 635px;
+	height: 220px;
+	float: right;
+	background: rgba(0,0,0,.7);
+	border-radius: 5px;
+}
+#feature div {
+	width: 996px;
+	height: auto;
+	margin: 0 auto;
+	overflow: hidden;
+}
+aside p {
+	color: white;
+	padding: 20px;
+	margin: 0;
+}
+aside a {
+	position: absolute;
+	right: 0px;
+	bottom:0px;
+	color: white;
+	float: right;
+	text-decoration: none;
+	background: gray;
+	border-radius: 3px;
+	margin: 0px 20px 20px 0;
+	width: 159px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	cursor: pointer;
+	transition: all 0.4s ease 0s;
+}
+
+aside a:hover {
+	background: red;
+}
+
+#container {
+	width: 996px;
+	margin: 0 auto;	
+}
+
+
+
+#container > article:nth-child(1) {
+	position: relative;
+	margin-left: 62px;
+	background: url(../images/ValkraAlpha.png)no-repeat;
+	background-size: cover;	
+}
+#container > article:nth-child(1) p {
+	
+}
+#container > article:nth-child(2) {
+	position: relative;
+	background:  url(../images/DragosAlpha.png)center;
+	background-size: cover;	
+
+}
+#container > article:nth-child(3) {
+	position: relative;
+	background:  url(../images/MeatLug.png)center;
+	background-size: cover;		
+}
+#container > article {
+	margin: 50px 45px 40px 0px;
+	width: 260px;
+	height: 280px;
+	float: left;
+	background: gray;
+}
+
+.videoInfo {
+	position: absolute;
+	text-align: justify;
+	font-size: 14px;
+	top: -15px;
+	width: 260px;
+	height: 280px;
+	color: white;
+	background: rgba(0,0,0,.6);
+	box-sizing: border-box;
+	padding: 10px;
+	opacity: 0;
+	transition: .25s;
+}
+
+#container article:hover .videoInfo {
+	opacity: 1;
+}
+
+#container > a:first-of-type {
+	margin-left:107px;
+}
+
+#container > a {
+	display: block;
+	float: left;
+	margin-left: 150px;
+	margin-bottom: 40px;
+	text-align: center;
+	line-height: 50px;
+	color:white;
+	border-radius: 3px;
+	width: 159px;
+	height: 50px;
+	background: gray;
+	text-decoration: none;
+	transition: all 0.4s ease 0s;
+}
+
+#container > a:hover {
+		background: red;	
+}
+
+
+#videoPlayer {
+	float: left;
+	width: 100%;
+	max-width: 996px;
+	height: 440px;
+	background: gray;
+	margin-bottom: 40px;
+}
+#videoPlayer h2 {
+	text-align: center;
+}
+
+#videoPlayer > video {
+	background: black;
+	width: 640px;
+	height: 360px;
+	margin:40px 35px 40px 40px;
+}
+
+#videoPlayer > aside {
+	position: relative;
+	clear: both;
+	float: right;
+	width: 235px;
+	height: 360px;
+	background: white;
+	margin: 40px 40px 40px 0 ;
+}
+#videoPlayer aside p {
+	color: black;
+}
+
+/************* MODAL *************/
+.overlay {
+	background: #333;
+	opacity: .8;
+	z-index: 10000;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+.modal {
+	background: white;
+	width: 100%;
+	max-width: 996px;
+	height: 440px;
+	z-index: 10001;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+
+	margin-top: -220px;
+	margin-left: -498px;
+
+}
+
+/**************** Dynamic Content ***************/
+
+table {
+	border-collapse:collapse;
+	font-size:14px;
+	margin:0;
+	border-top:2px solid #015287;
+	width:236px;
+}
+
+th {
+	border-bottom: 2px solid #015287;
+	color: #D15600;
+	font-size: 16px;
+	font-weight: normal;
+	text-align: left;
+	padding: 3px 8px;
+}
+
+td {
+	padding: 6px;
+}
+
+.zebra { 
+  background-color: #dddddd;
+  color: #666666;
+}
+
+tr.zebraHover {
+  background-color: #FFFACD;
+  cursor: pointer;
+}
+#videoPlayer aside p {
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+	color: grey;
+	
+}
+/******************* FOOTER **********/
+footer {
+	clear: both;
+	width:100%;
+	height: 150px;
+	background: black;
+}
+footer p {
+	line-height: 150px;
+	color: white;
+	text-align: center;
+}
+

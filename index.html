@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>WRMO Movies</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/normalize.css">
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/1.8.2/jquery.min.js" type="text/javascript"></script>
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/script.js"></script>
+
+</head>
+	<body>
+		<header><!-- full with header -->
+		<div>
+			<h1><a href="index.html"></a></h1>
+		</div>
+		</header>
+		<section id="feature"><!-- featured movie for each page 600px height -->
+			<div><!-- container to constrain to 996px -->
+				<aside>
+					<p>Take a journey to the island of Berk where Vikings have discovered all of the dragon’s deepest secrets; or so they thought. Hiccup thinks he knows it all until his mother comes back into his life with a whole new world of tricks up her sleeve. New dragons, adventures and enemies bring a whole new spin on training your dragon. Check out these movie clips for a sneak peak into an evolving world where man and beast can live in harmony.  Danger, love and exploration will keep you coming back for more in How to Train Your Dragon 2.</p>
+					<a href="#video1" id="videoBtn">Watch Now</a>
+				</aside>
+			</div>
+		</section>
+		
+		<section id="container"><!-- start of main container 996px --> 
+			<article><!-- nth:child(1) -->
+				<p class="videoInfo">A brilliant sequel continues the heroic journey of a brave boy and his dragon. Taking the story to the next level, this movie brings you one step closer to the playful relationship of Hiccup and Toothless. From this point on, life on Burke is forever changed. Humans and dragons live in harmony creating a wonderful brotherhood of beast and man. All is well until a new mystery brings devastation and destruction. Hiccup struggles to protect his people from a terrible new foe and discovers a surprising stranger along the way. This action packed movie will have you at the edge of your seat. </p>	
+			</article>
+			<article>
+				<p class="videoInfo">Hiccup finally lives in a world he can be proud of. Burke is now a place where people and dragons can live together in peace. All is well with the world until a stranger catches him by surprise and turns his world back upside down. It is then that Hiccup meets a new species of dragons. The Alpha dragon brings new meaning to the survival of his people and the dragons that inhabit his world. Hiccup must now figure out a new way to protect his island as a new danger approaches. The reemergence of a lost family member will be the difference between survival and defeat. </p>
+			</article>
+			<article>
+				<p class="videoInfo">Hiccup steps outside the island of Burke and discovers a whole new world. He thought he knew it all until his mother comes back into his life to teach him some new tricks. She shows him another side of dragons he never could have imagined.  An emotional reunion between Hiccup’s parents creates an epic love story in the middle of chaos and new dangers. Toothless and Hiccup have to discover once again how to defeat a giant enemy. It is up to them to protect their island that now welcomes dragons into the human world. </p>
+			</article>
+			<a href="#video" class="navItem" id="article1">Watch</a>
+			<a href="#video" class="navItem" id="article2">Watch</a>
+			<a href="#video" class="navItem" id="article3">Watch</a>
+			<div id="videoPlayer"><!-- video player section -->
+				<video id="video1" poster="images/AlphaMad.png" controls="controls" preload="auto"> <!-- official trailer -->
+					<source src="video/HOW-TO-TRAIN-YOUR-DRAGON-2_Official-Trailer.mp4" type="video/mp4"/> 
+					<source src="video/HOW-TO-TRAIN-YOUR-DRAGON-2_Official-Trailer.webmhd.webm" type="video/webm"/>
+					<source src="video/HOW-TO-TRAIN-YOUR-DRAGON-2_Official-Trailer.oggtheora.ogv" type="video/ogg"/> 
+				</video>
+				
+				<aside>
+				<h2>Downloads</h2>
+				<table>
+					<thead>
+						<tr class="first-row">
+							<th scope="col">Format</th>
+							<th scope="col">Resolution/ Bitrate </th>
+							<th scope="col">Size</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr onclick="document.location = 'media/HOW-TO-TRAIN-YOUR-DRAGON-2_Official-Trailer.mp4.zip';">
+							<td>MP4</td>
+							<td>1280 x 720</td>
+							<td>36.5 MB</td>
+						</tr>
+						<tr onclick="document.location = 'media/HOW-TO-TRAIN-YOUR-DRAGON-2_Official-Trailer.oggtheora.ogv.zip';">
+							<td>Theora</td>
+							<td>1280 x 720</td>
+							<td>09.9 MB</td>
+						<tr onclick="document.location = 'media/HOW-TO-TRAIN-YOUR-DRAGON-2_Official-Trailer.webmhd.webm.zip';">
+							<td>WebM</td>
+							<td>1280 x 720</td>
+							<td>37.7 MB</td>
+						<tr onclick="document.location = 'media/HOW-TO-TRAIN-YOUR-DRAGON-2_Official-Trailer.mp3.mp3.zip';">
+							<td>MP3</td>
+							<td>44.1 kHz 48 kbps</td>
+							<td>2.3 MB</td>
+						</tbody>
+				</table>
+				<p>DreamWorksTV | 2:30</p>
+				</aside>
+			</div>
+			
+		</section><!-- end of main container -->
+		<footer><!-- full width footer -->
+			<p>Full Sail University &copy; | Designed By Shaun Gehrke 1406</p>
+		</footer>
+	</body>
+</html>
